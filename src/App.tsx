@@ -14,9 +14,9 @@ function App() {
       <Container className="mb-4 bg-light">
 
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Store" element={<Store />} />
-          <Route path="/About" element={<About />} />
+          <Route path="/abc/" element={<Home />} />
+          <Route path="/abc/Store" element={<Store />} />
+          <Route path="/abc/About" element={<About />} />
         </Routes>
       </Container>
     </ShoppingCartProvider>
