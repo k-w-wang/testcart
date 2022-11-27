@@ -6,8 +6,10 @@ import { BrowserRouter, HashRouter } from "react-router-dom"
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <App />
-    </BrowserRouter>
+    </BrowserRouter> */}
+
+    123
   </React.StrictMode>
 )
