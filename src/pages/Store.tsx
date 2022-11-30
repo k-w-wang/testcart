@@ -5,7 +5,7 @@ import storeItems from "../data/items.json"
 export function Store() {
     return (<>
         <h1>
-            测试 Store
+            测试 Store 测试
         </h1>
         <Row md={2} xs={1} lg={3} className="g-3">
             {storeItems.map(item=>(
